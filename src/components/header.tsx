@@ -7,7 +7,7 @@ export function Header() {
             <div className="container flex h-14 max-w-screen-2xl items-center mx-auto px-4">
                 {/* Lado Izquierdo: Logo y Navegación */}
                 <div className="mr-4 hidden md:flex">
-                    <Link href="/home" className="mr-6 flex items-center space-x-2">
+                    <Link href="/" className="mr-6 flex items-center space-x-2">
                         <span className="hidden font-bold sm:inline-block">
                             Alfredo<span className="text-primary">.dev</span>
                         </span>
