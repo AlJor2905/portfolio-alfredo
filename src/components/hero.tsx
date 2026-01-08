@@ -41,15 +41,15 @@ export function Hero() {
 
                     {/* Redes Sociales (Ahora alineadas al centro junto al botón o abajo) */}
                     <div className="flex items-center gap-4">
-                        <Link href="https://github.com" target="_blank" className="text-muted-foreground hover:text-foreground transition-colors p-2 hover:bg-secondary rounded-full">
+                        <Link href="https://github.com/AlJor2905" target="_blank" className="text-muted-foreground hover:text-foreground transition-colors p-2 hover:bg-secondary rounded-full">
                             <Github className="h-6 w-6" />
                             <span className="sr-only">GitHub</span>
                         </Link>
-                        <Link href="https://linkedin.com" target="_blank" className="text-muted-foreground hover:text-foreground transition-colors p-2 hover:bg-secondary rounded-full">
+                        <Link href="https://linkedin.com/in/ortizalfredo" target="_blank" className="text-muted-foreground hover:text-foreground transition-colors p-2 hover:bg-secondary rounded-full">
                             <Linkedin className="h-6 w-6" />
                             <span className="sr-only">LinkedIn</span>
                         </Link>
-                        <Link href="mailto:tuemail@ejemplo.com" className="text-muted-foreground hover:text-foreground transition-colors p-2 hover:bg-secondary rounded-full">
+                        <Link href="ortialfredo@gmail.com" className="text-muted-foreground hover:text-foreground transition-colors p-2 hover:bg-secondary rounded-full">
                             <Mail className="h-6 w-6" />
                             <span className="sr-only">Email</span>
                         </Link>
