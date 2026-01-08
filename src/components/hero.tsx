@@ -32,7 +32,7 @@ export function Hero() {
                 {/* Área de Acción */}
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-6 pt-4">
                     <Link
-                        href="/proyectos"
+                        href="/projects"
                         className="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md bg-primary px-8 font-medium text-primary-foreground shadow transition-all hover:bg-primary/90 hover:scale-105"
                     >
                         <span className="mr-2">Ver mi trabajo</span>
