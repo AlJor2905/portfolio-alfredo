@@ -49,7 +49,7 @@ export function Hero() {
                             <Linkedin className="h-6 w-6" />
                             <span className="sr-only">LinkedIn</span>
                         </Link>
-                        <Link href="ortialfredo@gmail.com" className="text-muted-foreground hover:text-foreground transition-colors p-2 hover:bg-secondary rounded-full">
+                        <Link href="mailto:ortialfredo@gmail.com" className="text-muted-foreground hover:text-foreground transition-colors p-2 hover:bg-secondary rounded-full">
                             <Mail className="h-6 w-6" />
                             <span className="sr-only">Email</span>
                         </Link>
