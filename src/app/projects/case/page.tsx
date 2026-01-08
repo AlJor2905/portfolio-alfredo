@@ -9,14 +9,14 @@ import { CaseFile } from "./components/CaseFile";
 const CAPAS_CASO: SceneLayer[] = [
     {
         id: "fondo",
-        src: "/case-assets/01_mesa_fondo.png", // Tu capa base
+        src: "/case-assets/01_mesa_fondo.jpg", // Tu capa base
         alt: "Mesa",
         isInteractive: false,
         zIndex: 2
     },
     {
         id: "telefono",
-        src: "/case-assets/02_telefono.png", // Capa con solo el teléfono
+        src: "/case-assets/02_telefono.webp", // Capa con solo el teléfono
         alt: "Teléfono",
         isInteractive: true,
         zIndex: 2,
@@ -30,7 +30,7 @@ const CAPAS_CASO: SceneLayer[] = [
     },
     {
         id: "archivos",
-        src: "/case-assets/03_carpetas.png", // Capa con solo las carpetas
+        src: "/case-assets/03_carpetas.webp", // Capa con solo las carpetas
         alt: "Archivos",
         isInteractive: true,
         zIndex: 5,
@@ -44,7 +44,7 @@ const CAPAS_CASO: SceneLayer[] = [
     },
     {
         id: "typewriter",
-        src: "/case-assets/04_typewriter.png",
+        src: "/case-assets/04_typewriter.webp",
         alt: "Typewriter",
         isInteractive: true,
         zIndex: 3,
@@ -58,7 +58,7 @@ const CAPAS_CASO: SceneLayer[] = [
     },
     {
         id: "pictures",
-        src: "/case-assets/05_pictures.png",
+        src: "/case-assets/05_pictures.webp",
         alt: "Pictures",
         isInteractive: true,
         zIndex: 3,
@@ -72,7 +72,7 @@ const CAPAS_CASO: SceneLayer[] = [
     },
     {
         id: "camera_rolls",
-        src: "/case-assets/06_camera_rolls.png",
+        src: "/case-assets/06_camera_rolls.webp",
         alt: "Camera Rolls",
         isInteractive: true,
         zIndex: 15,
@@ -86,21 +86,21 @@ const CAPAS_CASO: SceneLayer[] = [
     },
     {
         id: "pen",
-        src: "/case-assets/07_pen.png",
+        src: "/case-assets/07_pen.webp",
         alt: "Pen",
         isInteractive: false,
         zIndex: 20
     },
     {
         id: "light",
-        src: "/case-assets/08_light.png",
+        src: "/case-assets/08_light.webp",
         alt: "Light",
         isInteractive: false,
         zIndex: 9
     },
     {
         id: "lamp",
-        src: "/case-assets/09_lamp.png",
+        src: "/case-assets/09_lamp.webp",
         alt: "Lamp",
         isInteractive: false,
         zIndex: 9
