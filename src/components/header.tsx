@@ -21,13 +21,9 @@ export function Header() {
                         </Link>
                     </nav>
                 </div>
-
-                {/* Versión Móvil (Logo simple) */}
                 <div className="flex md:hidden">
                     <span className="font-bold">Alfredo.dev</span>
                 </div>
-
-                {/* Lado Derecho: Toggle y Redes (si quisieras agregarlas) */}
                 <div className="flex flex-1 items-center justify-end space-x-2">
                     <nav className="flex items-center">
                         <ModeToggle />
